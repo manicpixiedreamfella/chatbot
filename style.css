@@ -1,0 +1,22 @@
+.hidden{
+    display:none;
+}
+
+/* ^^can only display webcam once */
+
+p{
+    position: absolute;
+    z-index: 2;
+    background: aquamarine, 0.3;
+    font-size:12px;
+    color: aliceblue;
+    padding:5px;
+}
+
+.highlighter{
+border: 2px dashed plum;
+position: absolute;
+background: plum, 0.15;
+z-index: 1;
+
+}

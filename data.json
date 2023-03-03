@@ -1,0 +1,67 @@
+{
+        "intents": [
+        {"tag":"greeting",
+        "patterns":["hi", "hello","how are you?"],
+        "responses":["hey girlie", "hi angel", "holaa soy dora !"]
+        },
+
+        {"tag":"bye",
+        "patterns":["bye", "goodbye", "see ya", "laters", "ttyl", "have a nice day"],
+        "responses":["bye", "goodbye", "see ya", "laters", "ttyl", "have a nice day"]
+        },
+
+        {"tag":"fact",
+        "patterns":["tell me a fact", "tell me something interesting"],
+        "responses":["frogs are better than hedgehogs", "i am a sentient chatbot (or am i?)"]
+
+        },
+        {"tag":"feeling",
+        "patterns":["how are you?", "hows u?", "hru", "how's it going?"],
+        "responses":["im good thanks, how are you?"]
+
+        },
+
+        {"tag":"feelinghappy",
+        "patterns":["i'm good thanks", "im good", "good thanks", "i'm okay"],
+        "responses":["I'm glad you're well !"]
+
+        },
+
+        {"tag":"feelingsad",
+        "patterns":["sad", ":(", "i'm upset"],
+        "responses":["Aw I hope you feel better soon <3"]
+
+        },
+
+        {"tag":"jokes",
+        "patterns":["tell me a joke", "make me laugh"],
+        "responses":["did u hear about the man who get his left arm and left leg cut off? its okay hes all RIGHT now :D",
+             "whats black and white and red all over? a penguin in a blender :D",
+             "whats 9 + 10 ? 21 :D"]
+                    },
+        {"tag":"fortune",
+        "patterns":["tell me about the future", "read my fortune", "how will i die?", "how is the world going to end?"],
+        "responses":["Though uncertain, I predit that the world will end by human hands", "I predict that a meteor will collide with the Earth and destroy most life on the planet.", "I predict that you are at risk of death via stray banana peels. Be wary where you walk."]
+        },
+        {"tag":"riddle",
+        "patterns":["tell me a riddle","give me a challenge", "give me a puzzle"],
+        "responses":["Okay, heres a riddle:\nA leech in the garden is me\nYet my home is neither lake nor ground\nLove I conjure when you are neath\nTo my home forever bound.\nWhat am I?"]
+        },
+        {"tag":"hint",
+        "patterns":["give me a hint", "give me a clue"],
+        "responses":["Okay, here's a clue: This is a popular Christmas decoration.", "Okay, here's a clue: This is a type of parasitic plant."]
+        },
+        {"tag":"solution",
+        "patterns":["mistletoe"],
+        "responses":["Congrats ! You found the answer to the riddle :)"]
+        },
+        {"tag":"code",
+        "patterns":["write me some code", "write some code"],
+        "responses":["I cant do that :( smooth brain"]
+        }
+      
+
+    ]
+}
+
+

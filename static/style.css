@@ -1,0 +1,48 @@
+*{
+    color: rgb(203, 150, 253);
+    background-color: midnightblue;
+}
+
+.message{
+    border: white 2px solid;
+    animation: example;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    
+}
+
+@keyframes example{
+    0%{
+        border: 2px black solid;
+    }
+    25%{
+        border: 8px red solid;
+    }
+    50%{
+        border: 25px blue solid;
+    }
+    75%{
+        border: 8px rgb(255, 0, 179) solid;
+    }
+    100%{
+        border: 2px white solid;
+    }
+}
+
+/* @keyframes burn {     0% {
+     text-shadow: 0 0 5px #fff, 0 0 10px #ff5d00, 0 0 100px #ff0000, 0 0 40px #ff1500, 0 0 60px #ff0d00, 0 0 80px #ff0500, 0 0 100px #ff0000; } 
+    50% { 
+        text-shadow: 0 0 5px #fff, 0 0 10px #ff5d00, 0 0 20px #ff2200, 0 0 40px #ff1500, 0 0 60px #ff0d00, 0 0 80px #ff0500, 0 0 100px #ff0000; }  
+    100% { 
+        text-shadow: 0 0 5px #fff, 0 0 10px #ff5d00, 0 0 40px #ff1500, 0 0 60px #ff0d00, 0 0 80px #ff0500, 0 0 100px #ff0000, 0 0 5px darkred; } }
+
+
+        * {
+            font-family: 'Impact', sans-serif;
+            font-weight: bold;
+            background-color: black;
+            animation-name: burn;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; */
+        /* } */
